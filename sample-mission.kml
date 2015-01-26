@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<Folder>
+			<name>Imported</name>
+			<Placemark>
+				<styleUrl>#line-highlight-1</styleUrl>
+				<name>Place d'Italie</name>
+				<description><![CDATA[Le tour de la Place d'Italie]]></description>
+				<LineString>
+					<coordinates>2.3568517,48.8313871,0.0 2.3566318,48.83193090000001,0.0 2.3561114,48.8322063,0.0 2.3550278,48.8321993,0.0 2.3543948,48.8317296,0.0 2.3543465,48.8312035,0.0 2.3555642,48.8312388,0.0 2.3545396,48.8309422,0.0 2.3555481,48.8308398,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-start-highlight</styleUrl>
+				<name>Place d'Italie (départ)</name>
+				<Point>
+					<coordinates>2.3568518,48.8313905,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-end-highlight</styleUrl>
+				<name>Place d'Italie (arrivée)</name>
+				<Point>
+					<coordinates>2.3555481,48.8308398,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='line-highlight-1'>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>1</width>
+			</LineStyle>
+		</Style>
+		<Style id='icon-start-highlight'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-end-highlight'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-any-highlight'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>
